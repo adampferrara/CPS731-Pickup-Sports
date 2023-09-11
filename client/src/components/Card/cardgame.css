@@ -1,0 +1,86 @@
+.MuiCardHeader-root {
+	border-bottom: 1px solid #dfe6e9;
+}
+
+.request {
+	display: flex;
+	justify-content: center;
+}
+
+.column1 {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	border-right: 1px solid #bfc0c4;
+}
+
+.column1 > p {
+	margin-bottom: 0rem;
+}
+
+.column2 > p {
+	margin-bottom: 0rem;
+}
+
+.column1 > button {
+	background-color: transparent;
+	border: 2px solid green;
+	color: black;
+	width: 80%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 0.6em;
+}
+
+.column2 {
+	float: left;
+	width: 66.66%;
+	padding: 10px;
+}
+
+.Type {
+	font-size: 12px;
+	color: gray;
+}
+
+.Data {
+	font-size: 12px;
+	color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hostData:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column3 {
+	float: left;
+	width: 70%;
+	padding: 10px;
+}
+.column3 > p {
+	margin-bottom: 0rem;
+}
+
+.column4 {
+	float: right;
+	width: 30%;
+	padding: 10px;
+}
+
+.GameReq {
+	padding: 16px 16px 0px 16px;
+}

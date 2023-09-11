@@ -1,0 +1,68 @@
+/* Small Screen */
+@media only screen and (max-width: 750px) {
+	.navbar-container {
+		bottom: 0px;
+		width: 100vw;
+		height: 50px;
+	}
+
+	.navbar-list {
+		flex-direction: row;
+	}
+
+	a {
+		height: 100%;
+	}
+}
+
+.header .pro-sidebar {
+	width: 160px;
+	height: 100vh;
+	position: fixed;
+	z-index: 2;
+}
+#header .closemenu {
+	color: #000;
+	position: absolute;
+	right: 0;
+	z-index: 9999;
+	line-height: 20px;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 22px;
+	top: 55px;
+	cursor: pointer;
+}
+
+#header .closemenu :hover {
+	color: #ffffff;
+}
+
+#header .closemenu h3 {
+	color: #000;
+	font-size: 22px;
+	margin-right: 10px;
+}
+#header .logo {
+	padding: 20px;
+}
+#header .pro-sidebar.collapsed {
+	width: 80px;
+	min-width: 80px;
+}
+
+.closemenu {
+	float: right;
+	margin-right: 5px;
+}
+
+#header .logotext {
+	font-size: 20px;
+	padding: 0 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+.pro-icon-wrapper :active {
+	background: white;
+}

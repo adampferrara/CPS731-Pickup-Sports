@@ -1,0 +1,95 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+:root {
+	--darkTheme: #222328;
+	--lightTheme: #ecf0f1;
+	--hover: rgb(248, 245, 245);
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.pageContainer {
+	background-size: 100%;
+	width: 20%;
+	height: 100%;
+	z-index: 1;
+	position: fixed;
+	padding: 8px;
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+		0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+		0 16px 16px rgba(0, 0, 0, 0.12);
+	border-radius: 0px 10px 10px 0px;
+	overflow: auto;
+}
+
+.userProfile {
+	width: 100%;
+	height: 100vh;
+}
+
+.darkTheme {
+	background: var(--darkTheme);
+	color: var(--lightTheme);
+}
+
+.lightTheme {
+	background: var(--lightTheme);
+	color: var(--darkTheme);
+}
+
+.menuClosed {
+	transform: translate(80px, 0px);
+}
+
+.menuOpened {
+	transform: translate(270px, 0px);
+}
+.MuiCard-root {
+	margin: 10px;
+	margin-left: 15px;
+}
+
+a[href^="http://maps.google.com/maps"]
+{
+	display: none !important;
+}
+a[href^="https://maps.google.com/maps"]
+{
+	display: none !important;
+}
+
+.gmnoprint a,
+.gmnoprint span,
+.gm-style-cc {
+	display: none;
+}
+.gmnoprint div {
+	background: none !important;
+}
+
+.btn-sm {
+	width: 100%;
+}
+
+.inputContainer {
+	display: "flex";
+	/* padding: 32px; */
+	padding-bottom: 32px;
+	/* width: 100%; */
+}
+
+.page-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

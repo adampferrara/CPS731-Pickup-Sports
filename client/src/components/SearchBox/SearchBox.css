@@ -1,0 +1,54 @@
+.flex {
+	width: 100%;
+}
+
+.suggestion_container {
+	height: auto;
+}
+
+.suggestion:hover {
+	background-color: var(--hover);
+	cursor: pointer;
+}
+
+.suggestion_name {
+	margin: 0;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+.suggestion_address {
+	font-size: 14px;
+	padding: 0 5px;
+	text-overflow: ellipsis;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 5px;
+}
+
+.searchIcon {
+	color: #808191;
+	font-size: 20px;
+}
+
+.searchBox {
+	border: none;
+	background-color: transparent;
+	color: #808191;
+	resize: none;
+	outline: none;
+	width: 100%;
+	padding-left: 10px;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #808191;
+	opacity: 1; /* Firefox */
+}

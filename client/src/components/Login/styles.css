@@ -1,0 +1,67 @@
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #222328;
+}
+
+.google-logo {
+	margin-right: 10px;
+}
+
+.google-signin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: 0.95;
+	transition: 0.5 ease;
+}
+
+.google-signin:hover {
+	opacity: 1;
+}
+
+.form-control {
+	background: #e8e8e8;
+	color: black;
+	border: none;
+}
+
+.auth-backdrop {
+	background: url("kobe.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.have-account {
+	cursor: pointer;
+}
+
+.alert {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	color: white;
+}
+
+h5 {
+	color: white;
+	text-decoration: underline;
+}
+
+.have-account {
+	color: white;
+}
+
+@media only screen and (max-width: 750px) {
+	.auth-backdrop {
+		display: none;
+	}
+}
